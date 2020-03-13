@@ -24,6 +24,7 @@ foreach ($people as $person) {
 	echo "<tr><td>" . $person['first_name'] . "</td>" . "<td>" . $person['last_name'] . "</td>" . "<td>" . $person['email'] . "</td>" . "<td><button id=btn" . $personID . "  onClick=personInfo(" . $personID . ") type=button>Click Me!</button></td>" . "</tr>";
 }
 
+//Closes the table
 echo "</table>";
 
 ?>
